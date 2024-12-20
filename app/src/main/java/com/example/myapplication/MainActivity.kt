@@ -82,7 +82,7 @@ class MainActivity : ComponentActivity() {
 }
 @Composable
 fun ForFun() {
-    var counter by remember { mutableStateOf(5) }
+    var counter by remember { mutableStateOf(1) }
     Card (
         modifier = Modifier
             .padding(10.dp)
